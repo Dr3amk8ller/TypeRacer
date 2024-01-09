@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:typeracer_tutorial/providers/client_state_provider.dart';
-import 'package:typeracer_tutorial/providers/game_state_provider.dart';
-import 'package:typeracer_tutorial/utils/socket_client.dart';
+import 'package:typeracer/utils/socket_client.dart';
+
+import '../providers/client_state_provider.dart';
+import '../providers/game_state_provider.dart';
 
 class SocketMethods {
   final _socketClient = SocketClient.instance.socket!;

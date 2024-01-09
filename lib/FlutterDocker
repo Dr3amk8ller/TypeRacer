@@ -1,0 +1,16 @@
+FROM ubuntu:18.04
+
+# Install dependencies
+RUN apt-get update -y && apt-get install -y curl git unzip xz-utils libglu1-mesa
+
+# Install Flutter
+RUN git clone https://github.com/flutter/flutter.git /flutter \
+    && /flutter/bin/flutter doctor
+
+WORKDIR /app
+COPY . /app
+
+# Build the Flutter app
+RUN /flutter/bin/flutter build apk --release
+
+CMD ["/app/your_flutter_start_command"]

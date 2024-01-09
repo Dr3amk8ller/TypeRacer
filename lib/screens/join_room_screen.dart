@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:typeracer_tutorial/utils/socket_methods.dart';
-import 'package:typeracer_tutorial/widgets/custom_button.dart';
-import 'package:typeracer_tutorial/widgets/custom_text_field.dart';
+
+import '../utils/socket_methods.dart';
+import '../widgets/custom_button.dart';
+import '../widgets/custom_text_field.dart';
 
 class JoinRoomScreen extends StatefulWidget {
   const JoinRoomScreen({Key? key}) : super(key: key);

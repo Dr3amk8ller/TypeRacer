@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:typeracer_tutorial/widgets/custom_button.dart';
+
+import '../utils/socket_methods.dart';
+import '../widgets/custom_button.dart';
+import '../widgets/custom_text_field.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);

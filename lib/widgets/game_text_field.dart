@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:typeracer_tutorial/providers/game_state_provider.dart';
-import 'package:typeracer_tutorial/utils/socket_client.dart';
-import 'package:typeracer_tutorial/utils/socket_methods.dart';
-import 'package:typeracer_tutorial/widgets/custom_button.dart';
+
+import '../providers/game_state_provider.dart';
+import '../utils/socket_client.dart';
+import '../utils/socket_methods.dart';
+import 'custom_button.dart';
 
 class GameTextField extends StatefulWidget {
   const GameTextField({Key? key}) : super(key: key);

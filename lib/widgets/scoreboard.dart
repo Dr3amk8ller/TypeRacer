@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:typeracer_tutorial/providers/game_state_provider.dart';
+
+import '../providers/game_state_provider.dart';
 
 class Scoreboard extends StatelessWidget {
   const Scoreboard({Key? key}) : super(key: key);

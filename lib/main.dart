@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:typeracer_tutorial/providers/client_state_provider.dart';
-import 'package:typeracer_tutorial/providers/game_state_provider.dart';
-import 'package:typeracer_tutorial/screens/create_room_screen.dart';
-import 'package:typeracer_tutorial/screens/game_screen.dart';
-import 'package:typeracer_tutorial/screens/home_screen.dart';
-import 'package:typeracer_tutorial/screens/join_room_screen.dart';
+import 'package:typeracer/providers/client_state_provider.dart';
+import 'package:typeracer/providers/game_state_provider.dart';
+import 'package:typeracer/screens/create_room_screen.dart';
+import 'package:typeracer/screens/game_screen.dart';
+import 'package:typeracer/screens/home_screen.dart';
+import 'package:typeracer/screens/join_room_screen.dart';
 
 void main() {
   runApp(const MyApp());

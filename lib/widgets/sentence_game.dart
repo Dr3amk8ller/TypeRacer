@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:typeracer_tutorial/providers/game_state_provider.dart';
-import 'package:typeracer_tutorial/utils/socket_client.dart';
-import 'package:typeracer_tutorial/utils/socket_methods.dart';
-import 'package:typeracer_tutorial/widgets/scoreboard.dart';
+import 'package:typeracer/widgets/scoreboard.dart';
+
+import '../providers/game_state_provider.dart';
+import '../utils/socket_client.dart';
+import '../utils/socket_methods.dart';
 
 class SentenceGame extends StatefulWidget {
   const SentenceGame({Key? key}) : super(key: key);
